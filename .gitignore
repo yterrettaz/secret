@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+*/__pycache__/*
+*.py[cod]
+
+# security files
+nginx/files
+nginx/log
+
+# local dev composition
+docker-compose.override.yml
+
+# ensure we commit no dump to github
+*.pg
+*.pg.gpg
